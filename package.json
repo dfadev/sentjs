@@ -1,0 +1,16 @@
+{
+  "name": "sentjs",
+  "version": "1.0.0",
+  "description": "Easy to use presentation tool",
+  "main": "sent.js",
+  "scripts": {
+    "test": "see index.html"
+  },
+  "author": "Russ Panula <russ@dfa.net>",
+  "license": "MIT",
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/dfadev/sentjs"
+	}
+}
