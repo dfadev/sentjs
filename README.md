@@ -30,7 +30,7 @@ Second slide
 
 # a slide that starts with a special char
 \@this will be a slide and not an image
-\# this will be a comment and not an image
+\# this will be a slide and not a comment
 
 # \<space> for a blank line within a slide
 First line
