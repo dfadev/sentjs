@@ -12,7 +12,7 @@ Simple plaintext presentation tool.  Ported from [sent](https://tools.suckless.o
 Create an HTML file containing your presentation slides where each slide is separated by a blank line:
 ```html
 <meta charset="utf-8">
-<script src="https://unpkg.co/sentjs>
+<script src="https://unpkg.co/sentjs">
 First slide
 
 Second slide
