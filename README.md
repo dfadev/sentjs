@@ -17,7 +17,9 @@ First slide
 
 Second slide
 
-# comment
+# a comment
+
+# image slide
 @ImageUrl
 
 # blank slide
