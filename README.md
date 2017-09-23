@@ -1,14 +1,8 @@
 # sentjs
 Simple plaintext presentation tool.  Ported from [sent](https://tools.suckless.org/sent/).
 
-## Why?
+## Example:
 
-* PPTX sucks
-* LATEX sucks
-* PDF sucks
-* X sucks
-
-## Usage:
 Create an HTML file containing your presentation slides where each slide is separated by a blank line:
 ```html
 <meta charset="utf-8">
@@ -50,6 +44,5 @@ Second line
 </script>
 ```
 
-Then view the file in your browser.  Use arrow keys to navigate.  F11 for fullscreen.
-
+Then view the file in your browser.  Use arrow keys to navigate.  F11 for fullscreen.  ESC to open editor.
 
