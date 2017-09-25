@@ -7,38 +7,73 @@ Create an HTML file containing your presentation slides where each slide is sepa
 ```html
 <meta charset="utf-8">
 <script src="https://unpkg.com/sentjs">
-First slide
+@http://www.nyan.cat/cats/original.gif
+this text will not be displayed, since the @ at the start of the first line
+makes this paragraph an image slide.
 
-Second slide
+sentjs
 
-# a comment
+Why?
 
-# image slide
-@ImageUrl
+get your point across fast
 
-# blank slide
-\
+simple to use
 
-# a slide that contains an ending script tag:
+2 slide types
+🖹 Text
+🌼 Image
+
+built-in editor
+⇒press escape
+
+depends on
+♽ HTML5
+☢ CSS3
+☃ JavaScript
+
+usage:
+\ 
+<meta charset="utf-8">
+<script src="http://unpkg.com/sentjs">
+slide 1
+\ 
+slide 2
+\ 
+etc
 <\/script>
 
-# a slide that starts with a special char
-\@this will be a slide and not an image
-\# this will be a slide and not a comment
+one slide per paragraph
 
-# \<space> for a blank line within a slide
-First line
+lines starting with # are ignored
+
+image slide == paragraph containing @URL
+
+empty slide == just use a \\ as a paragraph
+
+Use \\<space> for a blank line in a slide
+
+# This is a comment and will not be part of the presentation
+
+# multiple empty lines between paragraphs are also ignored
+
+
+
+\@this_line_actually_started_with_a_\\.png
+\#This line as well
+⇒ Use backslash to kill behaviour of tags
+
+UTF-8 support:
 \ 
-Second line
-
-# utf-8 supported (or other charset by setting meta)
 😀😁😂😃😄😅😆😇😈😉😊😋😌😍😎😏
 😐😑😒😓😔😕😖😗😘😙😚😛😜😝😞😟
 😠😡😢😣😥😦😧😨😩😪😫😭😮😯😰😱
 😲😳😴😵😶😷😸😹😺😻😼😽😾😿🙀☠
 
-# Multiple blanks line are ignored
+Thanks to ⇒
+     ▸ Takahashi
+     ▸ suckless.org
 
+fini
 
 # must have closing script tag
 </script>
