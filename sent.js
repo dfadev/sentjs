@@ -226,7 +226,7 @@
 					checkLineNum(i);
 					reset();
 				}
-			} else if (line == "") {
+			} else if (line.trim() == "") {
 				if (curSlide != preamble) {
 					slides.push((curSlide.endsWith("<br>") ? curSlide.slice(0, -4) : curSlide) + end);
 					slideLines[slides.length - 1] = charCount;
